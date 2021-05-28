@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.11"
+  },
+  "name": "bookingsystem",
+  "description": "Service booking system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "start:dev": "nodemon .",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IngridJufkin/BookingSystem.git"
+  },
+  "author": "Vaire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IngridJufkin/BookingSystem/issues"
+  },
+  "homepage": "https://github.com/IngridJufkin/BookingSystem#readme"
+}
