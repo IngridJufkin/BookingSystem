@@ -10,14 +10,16 @@ const {
   getAvailableServiceOrders,
 } = require("./controllers");
 
-router.post("/service", addServiceName);
-router.post("/serviceOrder", addServiceOrder);
-router.patch("/serviceOrder/:id", updateServiceOrder);
 router.get("/serviceName", getAllServiceNames);
 router.get(
   "/serviceOrder/:date/:serviceName/:status",
   getAvailableServiceOrders
 );
+
+router.post("/service", addServiceName);
+router.post("/serviceOrder", addServiceOrder);
 router.post("/user", addUser);
+
+router.patch("/serviceOrder/:id", updateServiceOrder);
 
 module.exports = router;
