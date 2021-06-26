@@ -50,3 +50,5 @@ PATCH http://localhost:3001/API/serviceOrder/60b11093cdd20853a8bc02a7
     "status": 1
 }
 ```
+#### Hosted in herokuapp.com - controlling API get request
+https://service-bookings.herokuapp.com/API/ServiceName
