@@ -20,7 +20,7 @@ const schema = new Schema({
   userMobile: {
     type: String,
   },
-  date: { type: Date, default: Date.now, required: true },
+  date: { type: Date, default: Date.now(), required: true },
 });
 
 schema.set("toJSON", { virtuals: true });
